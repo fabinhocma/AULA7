@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import java.util.Scanner;
+
+ class main{
+  public static void main(String[] args){
+   
+    Scanner teste = new Scanner (System.in);
+    double n1 = 0;
+
+    System.out.println("Digite a area do quadrado:");
+    n1 = teste.nextDouble();
+
+    double n2 = 0;
+    n2 = n1*n1*2 ;
+    System.out.println("O dobro da area e : "+ n2);
+
+
+  }
+}
